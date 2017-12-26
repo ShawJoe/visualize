@@ -11,9 +11,6 @@ def main():
     text = file.read()
     file.close()
     words = text.split()
-    words = [word.upper() for word in words]
-    print(words[:100])
-    
     nltk.download() 
 
 if __name__ == '__main__':
