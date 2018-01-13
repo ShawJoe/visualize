@@ -166,7 +166,7 @@ def train_model(industry_name):
         
 def main():
     #stock_industry_download()#先下载分类数据
-    #industry_stock_download('电子信息')#再下载各个股票的数据
+    #industry_stock_download- ('电子信息')#再下载各个股票的数据
     train_model('电子信息')
 
 if __name__ == '__main__':
