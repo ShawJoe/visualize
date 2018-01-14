@@ -33,7 +33,7 @@ def showTfidf():
 def similarity():
     # 构造LSI模型并将待检索的query和文本转化为LSI主题向量
     # 转换之前的corpus和query均是BOW向量
-    query='system'
+    query=[(0,1)]
     lsi_model = models.LsiModel(corpus, id2word=dictionary, num_topics=2)
     documents = lsi_model[corpus]
     query_vec = lsi_model[query]

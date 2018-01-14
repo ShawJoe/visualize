@@ -6,7 +6,6 @@ Created on 2018年1月12日
 import tushare as ts#财经数据接口包
 import nltk,random,os
 from nltk.classify import apply_features
-from idlelib.IOBinding import encoding
 
 ###---------------------------------------1、数据处理部分
 
