@@ -87,6 +87,7 @@ def similarity( query, dictionary, corpus_tf, lda_model ):
         print(query_bow)#已知的查询句子中的每个词在向量空间中的分布
         # 查询在K维空间的表示
         query_lda = lda_model[query_bow]
+        print(query_lda)
         # 计算相似度
         simi = index[query_lda]#结果为一个一维数组
         query_simi_list = [ item for _, item in enumerate(simi) ]#和预料集里面的每个文本都进行比对

@@ -1,2 +1,9 @@
 eclipse.preferences.version=1
+encoding//predict/tensorflowtest.py=utf-8
+encoding//simple_crf/crf.py=utf-8
+encoding//textsimilarity/lda_model.py=utf-8
+encoding//textsimilarity/preprocess.py=utf-8
+encoding//textsimilarity/save_result.py=utf-8
+encoding//textsimilarity/similarity.py=utf-8
+encoding//textsimilarity/test_lda_main.py=utf-8
 encoding/<project>=UTF-8

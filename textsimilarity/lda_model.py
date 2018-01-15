@@ -4,8 +4,9 @@ Created on 2018年1月13日
 
 @author: Shaw Joe
 '''
-'''
 
+
+'''
 lda_model.py
 这个文件的作用是lda模型的训练
 根据预处理的结果，训练lda模型
